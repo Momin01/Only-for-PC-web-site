@@ -1,0 +1,1077 @@
+ html{
+
+ }
+
+ *{
+     margin: 0;
+     padding: 0;
+ }
+
+ body{
+     background-image: url(../img/main.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: fixed; 
+     /* font-family: 'RocknRoll One', sans-serif; */
+ }
+/* 
+ header{
+     width: 100%;
+     height: 100vh;
+ } */
+
+ .top-left{
+     margin-left: 75px;
+ }
+
+ .icon{
+     color: tomato;
+ }
+ 
+
+ .top-corner{
+     background-color: tomato;
+     padding: 0.5px;
+     width: 150px;
+     text-align: center;
+     margin-left: 350px;
+     cursor: pointer;
+    
+ }
+ .navbar-section{
+     background-color: rgba(0, 0, 0, 0.3);
+ }
+
+ /* .nav-section{
+    background-color: rgba(0, 0, 0, 0.3);
+ }
+
+
+ .navbar{
+     background-color: rgba(0, 0, 0, 0.3);
+     
+ } */
+ .navbar-brand{
+     
+     font-family: 'Pacifico', cursive;
+     color: white;
+ }
+.navbar-brand:hover{
+    color: tomato;
+}
+
+
+.navbar-nav{
+    padding: 5px;
+}
+
+.nav-item{
+    padding: 1px 10px;
+    background-color: none;
+    font-family: 'Pacifico', cursive;
+    transition: 0.4s;
+    margin-top:  2px;
+    border-radius: 18px;
+}
+
+.nav-item:hover{
+    transform: scale(1.2);
+    background-color: black;
+
+
+}
+
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: tomato;
+}
+
+
+
+ 
+
+.thumbneil{
+     padding: 10% 5%;
+     color: white;
+}
+
+.thumbneil-header{
+     font-size: 3.5rem;
+     font-family: 'Roboto Condensed', sans-serif;
+}
+
+.thumbneil-content{
+     font-size: 2rem;
+     font-family: 'Pacifico', cursive;
+     color: tomato;
+}
+
+.thumb-get{
+     padding: 5px;
+     background-color: tomato;
+     width: 180px;
+     height: auto;
+     text-align: right; 
+     border-radius: 20px;
+     cursor: pointer;
+     transition: 0.4s;
+    
+}
+
+.thumb-get:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+    transform: scalex(1.2);
+    
+}
+
+.get{
+     color: white;
+     margin-right: 25px;
+     font-size: 20px;
+    
+}
+
+.get:hover{
+    color: white;
+    text-decoration: none;
+    
+}
+.start-icon{
+    
+}
+
+.one{
+    height: 350px;
+    background-color: tomato;
+    border-radius: 10px;
+    padding: 15px 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: 0.4s;
+    box-shadow: 0 5px 10px 0 black;
+}
+
+.one:hover{
+    transform: scale(1.1);
+}
+.head{
+    font-size: 2rem;
+    color: white;
+    
+}
+
+.content{
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 25px;
+}
+
+.learn-button{
+    padding: 1% 10%;
+    border-radius: 25px;
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-size: 1rem;
+}
+
+.learn-button:hover{
+    text-decoration: none;
+    color: black;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.two{
+    height: 300px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+    box-shadow: 0 5px 8px 0 black;
+    transition: 0.4s;
+}
+
+.two:hover{
+    transform: scale(1.1);
+}
+
+.two-head{
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+.two-content{
+    opacity: 0.7;
+}
+
+.icon-tow{
+    color: tomato;
+    
+}
+
+
+
+.three{
+    height: 300px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+    box-shadow: 0 5px 8px 0 black;
+    transition: 0.4s;
+}
+
+.three:hover{
+    transform: scale(1.1);
+}
+
+.three-head{
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+.three-content{
+    opacity: 0.7;
+}
+
+.icon-three{
+    color: tomato;
+    
+}
+
+
+
+
+.four{
+    height: 300px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+    box-shadow: 0 5px 8px 0 black;
+    transition: 0.4s;
+}
+
+.four:hover{
+    transform: scale(1.1);
+}
+
+.four-head{
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+.four-content{
+    opacity: 0.7;
+}
+
+.icon-four{
+    color: tomato;
+    
+}
+
+
+/* about section start */
+
+
+
+
+
+.about-section{
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.about{
+    background-color: rgba(247, 241, 234, 0.7);
+}
+
+.video{
+    background-image: url(../img/2nd.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    height: 600px;
+    margin-top: 80px;
+}
+
+.video-icon{
+    color: white;
+    background-color:tomato;
+    padding: 10px;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+.video-icon:hover{
+    background-color:rgba(0, 0, 0, 0.3);
+    color: tomato;
+    transform: scale(1.4);
+}
+
+.about-uss{
+    margin-top: 65px;
+}
+
+.about-right{
+    padding: 2% 3%;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bolder;
+    opacity: 0.5;
+}
+
+
+.about-head{
+    margin: 20px;
+}
+.about-content{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.lorem{
+    margin-top: 40px;
+}
+
+.finger-icon{
+    padding: 10px;
+    color: white;
+    background-color: tomato;
+    border: 1px solid tomato;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 15px;
+    float: left;
+    transition: 0.6s;
+}
+
+.finger-icon:hover{
+    background-color: white;
+    color: tomato;
+}
+
+.lorem-head{
+    margin-left: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.lorem-head:hover{
+    color: tomato;
+}
+
+.lorem-content{
+    margin-left: 20px;
+}
+
+
+
+/* about section end */
+
+
+/* service section start */
+
+.service-section{
+    background-color: antiquewhite;
+    height: 95vh;
+}
+
+.service-head{
+    opacity: 0.8;
+}
+
+.service-pera{
+    opacity: 0.7;
+}
+
+.desctop{
+    background-color: lightgoldenrodyellow;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.desctop:hover{
+    transform: scale(1.1);
+    box-shadow: 0 5px 8px 0 black;
+}
+
+.desc-icon{
+    padding: 15px;
+    border-radius: 50%;
+    margin-top: -50%;
+    color: white;
+    background-color: tomato;
+    transition: 0.4s;
+    
+}
+
+.desc-icon:hover{
+    background-color: white;
+    color: tomato;
+    border: 1px solid tomato;
+
+}
+
+.dectop-head{
+    color: lightslategray;
+    font-size: 22px;
+}
+
+.dectop-head:hover{
+    color: tomato;
+}
+/* service section end */
+
+
+/* images section start */
+
+.image-section{
+    background-color: white;
+    width: 100%;
+    height: 120vh;
+}
+
+
+
+
+.images{
+    width: 100%;
+    height: 350px;
+    padding-top: 25px;
+    top: 75px;
+    background-image: url(../img/tea.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    border-radius: 10px;  
+}
+
+.images1{
+    width: 100%;
+    height: 350px;
+    padding-top: 25px;
+    top: 75px;
+    background-image: url(../img/computer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    border-radius: 10px;  
+}
+
+.images2{
+    width: 100%;
+    height: 350px;
+    padding-top: 25px;
+    top: 75px;
+    background-image: url(../img/programming.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    border-radius: 10px;  
+}
+
+.images3{
+    width: 100%;
+    height: 350px;
+    padding-top: 25px;
+    top: 75px;
+    background-image: url(../img/ai.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    border-radius: 10px;  
+}
+
+
+.our-service{
+    background-color: rgba(247, 241, 234, 0.5);
+    padding: 1% 5%;
+    margin-top: 160px;
+    border-radius: 15px;
+    color: black;
+}
+
+.our-service:hover{
+    background-color: tomato;
+    color: white;
+    opacity: unset;
+}
+
+.img-head{
+    font-weight: bold;
+
+}
+
+
+
+
+
+/* images section end */
+
+
+/* team section start */
+
+.team-section{
+    background-color: rgba(247, 241, 234, 0.5);
+    width: 100%;
+}
+
+
+/* team section end */
+
+
+
+/* portfolio section start */
+
+
+.portfolio-section{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 150vh;
+}
+
+.portfolio-head{
+    padding-top: 50px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: lightslategray;
+}
+
+.portfolio-contant{
+    font-size: 1.1rem;
+    color: lightslategray;
+}
+
+.porfolio-btn{
+    padding: 1px 15px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 15px; 
+    width: 50px;
+    height: 100%;
+    font-size: 20px;
+    color: tomato;
+    transition: 0.4s;
+}
+
+.porfolio-btn:hover{
+    background-color: rgb(255, 51, 0, 0.5);
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px;
+
+}
+
+.portfolio-img1{
+    margin-left: 110px;
+    width: 100%;
+    height: 250px;
+    background-image: url(../img/portfolio1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    position: relative;
+    transition: 1s;
+}
+
+.portfolio-img2{
+    width: 100%;
+    height: 250px;
+    background-image: url(../img/portfolio2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    position: relative;
+    transition: 1s;
+}
+
+.portfolio-img3{
+    width: 100%;
+    height: 250px;
+    background-image: url(../img/portfolio3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    position: relative;
+    transition: 1s;
+}
+
+.portfolio-img4{
+    margin-left: 110px;
+    width: 100%;
+    height: 250px;
+    background-image: url(../img/portfolio4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    position: relative;
+    transition: 1s;
+}
+
+.portfolio-img5{
+    width: 100%;
+    height: 250px;
+    background-image: url(../img/portfolio5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    position: relative;
+    transition: 1s;
+}
+
+.portfolio-img6{
+    width: 100%;
+    height: 250px;
+    background-image: url(../img/portfolio6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    position: relative;
+    transition: 1s;
+}
+
+
+.portfolio-img7{
+    margin-left: 110px;
+    width: 100%;
+    height: 250px;
+    background-image: url(../img/portfolio7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    position: relative;
+    transition: 1s;
+}
+
+.portfolio-img8{
+    width: 100%;
+    height: 250px;
+    background-image: url(../img/portfolio8.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    position: relative;
+    transition: 1s;
+}
+
+.portfolio-img9{
+    width: 100%;
+    height: 250px;
+    background-image: url(../img/portfolio9.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    position: relative;
+    transition: 1s;
+}
+
+
+.port-desc{
+    background-color: rgb(170, 183, 184, 0.6);
+    margin-top: 180px;
+    margin-left: 10px;
+    padding: 10px 5px;
+    text-align: left;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    visibility: hidden;
+}
+.portfolio-img1:hover .port-desc{
+    position: absolute;
+    visibility: visible;
+}
+
+.portfolio-img2:hover .port-desc{
+    position: absolute;
+    visibility: visible;
+}
+
+.portfolio-img3:hover .port-desc{
+    position: absolute;
+    visibility: visible;
+}
+
+.portfolio-img4:hover .port-desc{
+    position: absolute;
+    visibility: visible;
+}
+
+.portfolio-img5:hover .port-desc{
+    position: absolute;
+    visibility: visible;
+}
+
+.portfolio-img6:hover .port-desc{
+    position: absolute;
+    visibility: visible;
+}
+
+
+.portfolio-img7:hover .port-desc{
+    position: absolute;
+    visibility: visible;
+}
+
+.portfolio-img8:hover .port-desc{
+    position: absolute;
+    visibility: visible;
+}
+
+.portfolio-img9:hover .port-desc{
+    position: absolute;
+    visibility: visible;
+}
+
+
+.port-icon{
+    text-align: right;
+    margin-left: 140px;
+}
+
+.port-icon1{
+    margin-left: 10px;
+}
+
+
+
+/* portfolio section end */
+
+
+/* member section start */
+
+.tem-section{
+    background-color: antiquewhite;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.tem{
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 25px;
+    color: lightslategray;
+    cursor: pointer;
+}
+
+.tem:hover{
+    color: black;
+    font-weight: bolder;
+}
+
+.tem-content{
+    color: lightslategray;
+    font-size: medium;
+}
+
+.team-card{
+    margin: 0;
+    transition: 0.4s;
+}
+
+.team-card:hover{
+    transform: scale(1);
+    box-shadow: 0px 10px 10px 0px black;
+
+}
+
+
+.card-head{
+    color: lightslategray;
+    margin-bottom: 20px;
+}
+
+.card-text{
+    color: lightslategray;
+}
+
+.card-icon{
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-top: -49px;
+    color: white;
+    transition: 0.4s;
+}
+
+.card-icon:hover{
+    background-color: white;
+    color: tomato;
+}
+
+
+
+
+/* member section end */
+
+
+
+/* pricing section start */
+
+
+.pricing-sec{
+    background-color: white;
+    width: 100%;
+    padding-bottom: 45px;
+   
+}
+
+.price-head{
+    font-size: 25px;
+    padding-top: 35px;
+}
+
+.price-content{
+    padding: 10px;
+}
+
+.crd{
+    margin-top: 25px;
+    transition: 0.5s;
+}
+.crd:hover{
+    box-shadow: 0px 5px 5px 0px black;
+    transform: scale(1.1);
+}
+
+.price-card{
+    margin-top: 15px;
+}
+
+.cd-head{
+    background: tomato;
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 30px;
+    transition: 0.5s;
+}
+
+.cd-head:hover{
+    background-color: white;
+    color: tomato;
+}
+.cd-title{
+    color: lightslategray;
+}
+
+.cd-title .amount{
+    font-size: 3rem;
+    color: tomato;
+
+}
+
+.butn{
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    background-color: tomato;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.butn:hover{
+    opacity: 0.8;
+}
+
+/* pricing section end */
+
+
+
+/* contact section start */
+
+
+.contact-section{
+    background-color: antiquewhite;
+    width: 100%;
+    text-align: center;
+}
+
+.Contact-head{
+    padding-top: 50px;
+    font-size: 22px;
+    font-weight: bolder;
+    color: rgb(62, 64, 66);
+    
+}
+
+.contact-content{
+    color: rgb(62, 64, 66);
+    margin-top: 40px;
+}
+
+
+.contct{
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.cntct-card{
+    transition: 0.5s;
+    border-radius: 10px;
+
+}
+
+.cntct-card:hover{
+    box-shadow: 0px 2px 5px 0px black;
+    transform: scale(1.1);
+}
+
+.contct-icon{
+    color: tomato;
+    border: 1px dotted tomato;
+    padding: 10px;
+    border-radius: 50%;
+    font-weight: bolder;
+}
+
+
+.form-section{
+    margin-top: 15px;
+    padding-bottom: 10px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* .subject-input{
+    width: 1000px;
+    padding: 7px;
+    margin-top: 5px;
+    border: none;
+} */
+
+.form-sec1{
+
+}
+
+.send-btn{
+    padding: 10px 20px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: tomato;
+    color: white;
+    font-weight: bolder;
+
+}
+
+.send-btn:hover{
+    opacity: 0.8;
+}
+
+
+
+
+/* contact section end */
+
+
+
+
+/* footer section start */
+
+
+.footer-section{
+    background-color: antiquewhite;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.foot-head{
+    font-size: 2rem;
+    font-weight: 500;
+    color: rgb(53, 54, 56);
+}
+
+.foot-desk{
+    color: rgb(53, 54, 56);
+    opacity: 0.8;
+    
+}
+
+.foot-head2{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgb(53, 54, 56);
+    margin-top: 60px;
+}
+
+.subs{
+    margin-right: 35px;
+    transition: 0.3s;
+}
+
+.subs:hover{
+    transform: scaleX(1.1);
+
+}
+
+.sub{
+   padding: 15px 50px;
+   border: none;
+   border-radius: 25px;
+   background-color: white;
+   font-weight: bolder;
+   opacity: 0.6;
+   transition: 0.3s;
+}
+
+.sub:hover{
+    background-color: tomato;
+    color: white;
+    opacity: unset;
+}
+
+
+/* footer section end */
+
+
+/* foot last section start */
+
+
+.foot-last{
+    background-color: white;
+    width: 100%;
+
+}
+
+.foot-left{
+    padding: 10px;
+}
+
+.foot-content{
+    color: rgb(53, 53, 54);
+    opacity: 0.7;
+}
+
+.foot-icon{
+    color: tomato;
+}
+
+.foot-icon:hover{
+    opacity: 0.7;
+}
+
+/* foot last section end */
+
